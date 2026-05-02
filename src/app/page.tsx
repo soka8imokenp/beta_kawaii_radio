@@ -1,5 +1,7 @@
 'use client';
 
+export const dynamic = 'force-dynamic';
+
 import { useState, useEffect, useRef } from 'react';
 import { Play, Pause, Search, X, Home, BookOpen, MessageCircle, Headphones, User, MoreHorizontal, Volume2, VolumeX, Info, Users, Menu, ChevronUp, Bookmark, Layers, Bell } from 'lucide-react';
 import Image from 'next/image';
